@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Card, , Blog, Minimal Blog Card, Cactus, support, ecommerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fravio99.github.io/Minimal-blog-card-starter-master/">
 
     <link
       rel="icon"
@@ -15,6 +17,8 @@
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
       * {
         margin: 0;
         padding: 0;
@@ -23,19 +27,69 @@
 
       body {
         height: 100vh;
+        font-family: "Sora", sans-serif;
+        font-weight: 100; 
       }
 
       .container {
-        max-width: 340px;
-        width: 338px;
-        height: 400px;
+        max-width: 370px;
+        width: 368px;
+        height: 425px;
         margin: 0 auto;
         margin-top: 164px;
-        background-color: aliceblue;
+        background-color: #FAFAF9;
+        border-radius: 14px;
         box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
       }
 
-    
+      .content {
+        margin: 16px 16px 20px 16px;
+      }
+
+      .images{
+        max-width: 336px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      .images img{
+        border-radius: 10px;
+      }
+
+      .section-1 .button {
+        background-color: #F2EAFD;
+        border: none;
+        color: #7C19EE;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        border-radius: 25px;
+        margin-bottom: 16px;
+        cursor: pointer;
+      }
+
+      .section-2 h2{
+        margin-bottom: 6px;
+        color: #20293A;
+      }
+
+      .section-2{
+        margin-bottom: 20px;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid rgb(234, 234, 234);
+        margin-bottom: 20px;
+      }
+
+      .content p{
+        margin-bottom: 20px;
+        color: #394150;
+      }
+
     </style>
   </head>
   <body>
@@ -48,18 +102,19 @@
 
         <div class="section">
           <div class="section-1">
-            <button>Design</button>
+            <button class="button">Design</button>
           </div>
 
           <div class="section-2">
             <h2>Embracing Minimalism</h2>
             <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
           </div>
-            <p>Annie Spratt</p>
-          <div class="section-3">
-
-          </div>
         </div>
+      </div>
+
+      <hr>
+      <div class="content">
+        <p>Annie Spratt</p>
       </div>
     </div>
     
